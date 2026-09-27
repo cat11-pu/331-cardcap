@@ -1,0 +1,17 @@
+{
+  "budget": 1,
+  "cap": 2,
+  "overflow_cap": 3,
+  "label_error_code": "E_BAD_LABEL",
+  "value_error_code": "E_BAD_VALUE",
+  "overflow_error_code": "E_OVERFLOW_FULL",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "labels": [], "overflow": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "report", "label": "a", "value": 5 },
+    { "id": 2, "kind": "report", "label": "b", "value": 3 },
+    { "id": 3, "kind": "report", "label": "c", "value": 1 },
+    { "id": 4, "kind": "report", "label": "a", "value": 2 },
+    { "id": 5, "kind": "report", "label": "d", "value": 4 }
+  ]
+}
